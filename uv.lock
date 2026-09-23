@@ -1099,18 +1099,6 @@ wheels = [
 ]
 
 [[package]]
-name = "npx"
-version = "0.1.8"
-source = { registry = "https://pypi.org/simple" }
-dependencies = [
-    { name = "numpy" },
-]
-sdist = { url = "https://files.pythonhosted.org/packages/21/7a/dfb51fe0a80e08ff4ecdb6b4f079e43a778eef6e79568a416077c18858e6/npx-0.1.8.tar.gz", hash = "sha256:efcedd9f8090864c1ad154307281302e931dfab60b495fada78bb505ac884eb9", size = 10867, upload-time = "2026-04-30T14:46:31.721Z" }
-wheels = [
-    { url = "https://files.pythonhosted.org/packages/9e/b4/4987134ebb73f127775ef6a39af55f5ba1edb7fc55cadcca58640728668e/npx-0.1.8-py3-none-any.whl", hash = "sha256:9263f7e54da5c50f2fe1757b64d0dc805e65325b3b3af7fbca93a89b06231509", size = 8319, upload-time = "2026-04-30T14:46:32.725Z" },
-]
-
-[[package]]
 name = "numpy"
 version = "2.5.3"
 source = { registry = "https://pypi.org/simple" }
@@ -1582,7 +1570,6 @@ dependencies = [
     { name = "inngest" },
     { name = "llama-index-core" },
     { name = "llama-index-readers-file" },
-    { name = "npx" },
     { name = "openai" },
     { name = "python-dotenv" },
     { name = "qdrant-client" },
@@ -1596,7 +1583,6 @@ requires-dist = [
     { name = "inngest", specifier = ">=0.5.19" },
     { name = "llama-index-core", specifier = ">=0.14.25" },
     { name = "llama-index-readers-file", specifier = ">=0.7.0" },
-    { name = "npx", specifier = ">=0.1.8" },
     { name = "openai", specifier = ">=3.17.0" },
     { name = "python-dotenv", specifier = ">=1.2.3" },
     { name = "qdrant-client", specifier = ">=1.19.1" },
