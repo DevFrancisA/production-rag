@@ -1,0 +1,28 @@
+[project]
+name = "rag-production-app-test"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Anto Francis", email = "antojason25@gmail.com" }
+]
+requires-python = ">=3.14"
+dependencies = [
+    "fastapi>=0.141.1",
+    "inngest>=0.5.19",
+    "llama-index-core>=0.14.25",
+    "llama-index-readers-file>=0.7.0",
+    "npx>=0.1.8",
+    "openai>=3.17.0",
+    "python-dotenv>=1.2.3",
+    "qdrant-client>=1.19.1",
+    "streamlit>=1.64.0",
+    "uvicorn>=0.53.0",
+]
+
+[project.scripts]
+rag-production-app-test = "rag_production_app_test:main"
+
+[build-system]
+requires = ["uv_build>=0.12.17,<0.13.0"]
+build-backend = "uv_build"
